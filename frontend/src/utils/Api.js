@@ -92,7 +92,7 @@ class Api{
 
 const jwt = localStorage.getItem('token');
 export const api = new Api({
-  host: 'http://localhost:3001',
+  host: 'https://api.mesto.kornilux.nomoredomains.icu',
   headers: {
     'Authorization': `Bearer ${jwt}`,
     'Content-Type': 'application/json'
